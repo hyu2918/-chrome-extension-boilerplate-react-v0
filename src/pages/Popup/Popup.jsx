@@ -3,6 +3,8 @@ import logo from '../../assets/img/logo.svg';
 import Greetings from '../../containers/Greetings/Greetings';
 import './Popup.css';
 
+import {Counter} from '../../components/counter'
+
 const Popup = () => {
   return (
     <div className="App">
@@ -20,6 +22,7 @@ const Popup = () => {
           Learn React!
         </a>
       </header>
+      <Counter />
     </div>
   );
 };

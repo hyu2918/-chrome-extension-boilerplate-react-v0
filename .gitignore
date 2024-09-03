@@ -22,3 +22,6 @@
 
 # secrets
 secrets.*.js
+
+# v0
+/src/v0_components/node_modules
